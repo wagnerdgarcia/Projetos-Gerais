@@ -1,0 +1,5 @@
+#define LinhaDD 12
+#define LinhaDE 13
+#define LinhaAD A0
+#define LinhaAE A1
+
