@@ -6,19 +6,23 @@ const options = {
     zoomControl: false
 }
 
-const map = L.map('mapid', options).setView([-6.5099465,-36.35635259], 15); 
+const lat = document.querySelector('span[data-lat]');
+const lng  = document.querySelector('span[data-lng]');
+
+const map = L.map('mapid', options).setView([lat.dataset.lat, lng.dataset.lng], 16); 
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
 
 const icon = L.icon({
-    iconUrl: "./public/images/map-marker.svg",
+    iconUrl: "/images/map-marker.svg",
     iconSize: [58,68],
     iconAnchor: [29,68],
     popupAnchor: [170,2]
 })
 
-L.marker([-6.5093601,-36.3615097],{icon}).addTo(map);
+
+L.marker([lat.dataset.lat, lng.dataset.lng],{icon}).addTo(map);
 
 /* Galeria de Imagem */
 
