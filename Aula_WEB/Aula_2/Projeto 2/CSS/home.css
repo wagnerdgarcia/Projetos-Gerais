@@ -1,0 +1,143 @@
+.limpar{
+    clear: both;
+}
+
+body{
+    margin: 0px;
+    font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*  Cabeçalho   */
+
+#header{
+    background-color: #f7b600;
+    padding: 25px;
+    display: grid;
+    text-align: center;
+}
+
+/* LOGOMARCA */
+
+#logo{
+    font-size: 2.5em;
+    font-weight: 600;
+    color:#4e4e4e;
+}
+#blog{
+    color: white;
+}
+
+/* MENU */
+
+#menu{
+    margin-top: 20px;
+}
+
+#menu a, #menu a:link, #menu a:visited{
+    text-decoration: none;
+    color:white;
+    padding: 8px 12px;
+}
+
+#menu a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #f7b600;
+    padding: 8px 12px;
+}
+
+/* Conteudo do Site */
+
+#conteudo{
+    margin: 0px 76px;
+    padding: 15px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.noticias{
+    float: left;
+    width: 640px;
+}
+.postagem{
+    width: 620px;
+    background-color: white;
+    margin: 0px 0px 20px;
+    padding: 20px;
+}
+
+.postagem h2{
+    color: #f7b600;
+    margin: 0px;
+}
+
+.data{
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.postagem img{
+    width: 620px;
+}
+
+.postagem p{
+    margin: 0px;
+    padding: 0px;
+}
+.leia-mais{
+    margin: 0px;
+    padding: 0px;
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.leia-mais:hover{text-decoration: underline;}
+
+.barra-lateral{
+    float: right;
+    width: 240px;
+}
+
+.recentes, .categorias{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.barra-lateral h3{
+    color: #565656;
+    background-color: #cccccc;
+    padding: 5px;
+    margin: 0px;
+}
+
+.postagens-recentes{
+    padding: 5px;
+    font-size: 0.8em;
+    border-bottom: 1px dotted #e2e2e2;
+}
+
+.postagens-recentes p{
+    margin: 0px;
+}
+
+.categorias a, .categorias a:link, .categorias a:visited{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.categorias a:hover{text-decoration: underline;}
+
+.todos-direitos-resevardos{
+    text-align: center;
+    background-color: #cccccc;
+    padding: 15px;
+}

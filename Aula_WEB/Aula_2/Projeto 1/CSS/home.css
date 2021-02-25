@@ -1,0 +1,33 @@
+body{
+    background-image: url(/Aula_2/Projeto/Imagens/fundo.png);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    width: 900px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo{
+    padding: 10px;
+    background-color: #e8e8d9;
+}
+
+.campanha{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #c3c3ae;
+}
+
+h1{
+    color: #828271;
+    font-size: 1.2em;
+}
+
+p{
+    font-weight: 550;
+}
+
